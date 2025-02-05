@@ -8,6 +8,7 @@ public class P20CharacterOccurrenceInString {
     public static void main(String[] args) {
 
         countCharacterOccurrence("akshay chaudhari");
+        countOccurrenceOfLetters("akshay kshay");
     }
 
     public static void countCharacterOccurrence(String str) {
@@ -35,6 +36,28 @@ public class P20CharacterOccurrenceInString {
         for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
 
             System.out.println("Character :" + entry.getKey() + " - Occurrence: " + entry.getValue());
+        }
+    }
+
+    //Approch 2
+
+    public static void countOccurrenceOfLetters(String str) {
+
+        int[] count = new int[26];
+
+        //count frequncy of each letter
+        for (char ch : str.toCharArray()) {
+
+            if (ch != ' ') {
+                count[ch - 'a']++;
+            }
+
+        }
+        for (int i = 0; i < 26; i++) {
+
+            if (count[i] > 0) {
+                System.out.println((char) ('a' + i) + " -> " + count[i]);
+            }
         }
     }
 }
