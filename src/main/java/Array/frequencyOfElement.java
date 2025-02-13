@@ -1,11 +1,38 @@
-package JavaCoding25;
+package Array;
 
-public class P2FrequencyOfElement {
+import java.util.HashMap;
+import java.util.Map;
+
+public class frequencyOfElement {
 
     public static void main(String[] args) {
 
-//        int[] arr = {2, 2, 4, 1, 4, 1, 7, 7, 5};
-        int[] arr = {2, 4, 2, 1, 3};
+        int[] arr = {2, 4, 6, 2, 5, 7, 4, 2};
+
+        freqofElemts(arr);
+
+        int[] arr2 = {2, 4, 2, 1, 3};
+
+        freqOfElement2(arr);
+    }
+
+    private static void freqofElemts(int[] arr) {
+
+        Map<Integer, Integer> freqMap = new HashMap<>();
+
+        for (int num : arr) {
+
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
+        }
+        for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
+
+    }
+
+    //Aproch 2
+
+    private static void freqOfElement2(int[] arr) {
 
         int[] visitedArr = new int[arr.length];
 

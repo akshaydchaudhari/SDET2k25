@@ -7,6 +7,7 @@ public class FindPairSumOfArray {
         int target1 = 11;
 
         findPair(arr, target1);
+
     }
 
     public static void findPair(int[] arr, int target) {
