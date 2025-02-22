@@ -23,7 +23,7 @@ public class P22WordOccurance {
             freqOfWord.put(word, freqOfWord.getOrDefault(word, 0) + 1);
         }
 
-        System.out.println(freqOfWord);   // {the=1, Akshay=2, perfect=1, is=2, best=1}
+        System.out.println(freqOfWord); // {the=1, Akshay=2, perfect=1, is=2, best=1}
 
         for (Map.Entry<String, Integer> entry : freqOfWord.entrySet()) {
 
