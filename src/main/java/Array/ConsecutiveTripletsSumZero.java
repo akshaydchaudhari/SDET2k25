@@ -23,4 +23,6 @@ public class ConsecutiveTripletsSumZero {
         }
         System.out.println("Count of Consecutive Numbers whose sum is Zero: " + count);
     }
+
+
 }

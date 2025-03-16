@@ -14,6 +14,8 @@ public class frequencyOfElement {
         int[] arr2 = {2, 4, 2, 1, 3};
 
         freqOfElement2(arr);
+
+
     }
 
     private static void freqofElemts(int[] arr) {
@@ -59,4 +61,6 @@ public class frequencyOfElement {
             }
         }
     }
+
+
 }

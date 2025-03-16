@@ -15,6 +15,7 @@ public class HashMapPractice {
         hashMap.put(45, "Rohit Sharma");
         hashMap.put(01, "KL Rahul");
 
+
         System.out.println("All entries in the hasmap are : " + hashMap);
 
         System.out.println("Get value by key 18 : " + hashMap.get(18));

@@ -9,6 +9,8 @@ public class P20CharacterOccurrenceInString {
 
         countCharacterOccurrence("akshay chaudhari");
         countOccurrenceOfLetters("akshy kshy");
+
+      
     }
 
     public static void countCharacterOccurrence(String str) {
