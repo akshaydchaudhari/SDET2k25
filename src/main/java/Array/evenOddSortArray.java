@@ -12,6 +12,7 @@ public class evenOddSortArray {
 
         int arr[] = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9};
         evenOddSort(arr);
+        System.out.println(Arrays.toString(arr));
         int arr1[] = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9};
         rearrangeEvenOdd(arr1);
         System.out.println(Arrays.toString(arr1));
@@ -36,12 +37,13 @@ public class evenOddSortArray {
             }
 
         }
-        for (int a : arr) {
+      /*  for (int a : arr) {
 
             System.out.print(a + " ");
-        }
+        }*/
 
     }
+
 
     public static void rearrangeEvenOdd(int[] arr) {
         int left = 0, right = arr.length - 1;
