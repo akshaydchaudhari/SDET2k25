@@ -7,7 +7,7 @@ public class mergeArrays {
 
     public static void main(String[] args) {
 
-        int[] arr1 = {1, 2, 3};
+        int[] arr1 = {1, 8, 3};
         int[] arr2 = {4, 5, 6};
         int[] mergedArray = mergetwoArrays(arr1, arr2);
         System.out.println(Arrays.toString(mergedArray));

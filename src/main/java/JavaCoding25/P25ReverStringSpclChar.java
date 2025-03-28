@@ -4,7 +4,7 @@ public class P25ReverStringSpclChar {
 
     public static void main(String[] args) {
 
-        String str = "a%B*C&%d(hds@";
+        String str = "a%B*C&%d(hds@";   //output : s%d*h&%d(CBa@
 
         System.out.println(revStrWithoutSpclChar2(str));
 

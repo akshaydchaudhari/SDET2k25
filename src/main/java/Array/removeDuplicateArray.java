@@ -24,6 +24,8 @@ public class removeDuplicateArray {
 
             set.add(num);
         }
+
+        System.out.println(set);
         int[] uniqueArr = new int[set.size()];
 
         int i = 0;

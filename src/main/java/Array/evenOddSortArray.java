@@ -10,9 +10,10 @@ public class evenOddSortArray {
 //        Given an array int arr [] = {2,5,8,7,1,3,6,4,5,9}; shift all even numbers to the left and odd numbers
 //        to the right. Optimize it if possible
 
-        int arr[] = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9};
+        int arr[] = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9}; //2,8,6,4,5,7,1,3,5,9
         evenOddSort(arr);
         System.out.println(Arrays.toString(arr));
+
         int arr1[] = {2, 5, 8, 7, 1, 3, 6, 4, 5, 9};
         rearrangeEvenOdd(arr1);
         System.out.println(Arrays.toString(arr1));
@@ -70,4 +71,5 @@ public class evenOddSortArray {
             }
         }
     }
+
 }

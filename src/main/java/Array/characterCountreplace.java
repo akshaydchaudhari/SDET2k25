@@ -8,7 +8,7 @@ public class characterCountreplace {
     public static void main(String[] args) {
 
         String str = "Automation";
-        System.out.println(transFormingString(str));
+        System.out.println(transFormingString(str));  //OutPut: 2u22m22i2n
 
     }
 
