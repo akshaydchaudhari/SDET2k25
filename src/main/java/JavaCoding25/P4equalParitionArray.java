@@ -18,6 +18,8 @@ public class P4equalParitionArray {
         for (int num : arr) {
             rightSum += num;
         }
+        System.out.println(rightSum);
+
         for (int i = 0; i < arr.length; i++) {
             rightSum -= arr[i];
             if (leftSum == rightSum) {

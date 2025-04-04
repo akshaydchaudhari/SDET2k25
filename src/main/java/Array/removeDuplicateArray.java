@@ -1,6 +1,5 @@
 package Array;
 
-import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -25,8 +24,8 @@ public class removeDuplicateArray {
             set.add(num);
         }
 
-        System.out.println(set);
-        int[] uniqueArr = new int[set.size()];
+        System.out.println("set:  " + set);
+       /* int[] uniqueArr = new int[set.size()];
 
         int i = 0;
 
@@ -34,6 +33,6 @@ public class removeDuplicateArray {
 
             uniqueArr[i++] = num;
         }
-        System.out.println(Arrays.toString(uniqueArr));
+        System.out.println(Arrays.toString(uniqueArr));*/
     }
 }

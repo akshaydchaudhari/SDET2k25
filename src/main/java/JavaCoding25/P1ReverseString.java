@@ -6,29 +6,32 @@ public class P1ReverseString {
 
         System.out.println(revString("global"));
 
+        System.out.println(revStr1("automation Testing"));
+
     }
 
     public static String revString(String str) {
 
         String rev = "";
 
-        for(int i= str.length()-1; i>=0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--) {
 
             rev = rev + str.charAt(i);
         }
         return rev;
     }
 
-  /*  public  static  String revStr1(String rev) {
+    public static String revStr1(String rev) {
 
-       StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
-       for(char ch : rev.toCharArray()) {
+        for (int i = rev.length() - 1; i >= 0; i--) {
 
-           sb.append(rev);
+            sb.append(rev.charAt(i));
 
-       }
+        }
 
-    }*/
+        return sb.toString();
+    }
 
 }

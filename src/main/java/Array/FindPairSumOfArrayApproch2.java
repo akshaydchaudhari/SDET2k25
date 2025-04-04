@@ -19,6 +19,7 @@ public class FindPairSumOfArrayApproch2 {
             System.out.println("Indices: [" + pair[0] + ", " + pair[1] + "]");
         }
 
+
     }
 
     public static List<int[]> twoSumAllPairs(int[] nums, int target) {
