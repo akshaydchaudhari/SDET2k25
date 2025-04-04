@@ -1,6 +1,6 @@
-package Array;
+package JavaCoding25;
 
-public class InsertDashBtwnTwoOddNum {
+public class P33InsertDashBtwnTwoOddNum {
     public static void main(String[] args) {
 
         System.out.println(addDashBetweenTwoOddNumber("56730"));
