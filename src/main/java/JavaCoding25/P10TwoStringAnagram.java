@@ -43,7 +43,7 @@ public class P10TwoStringAnagram {
 
             count[ch - 'a']--;
         }
-        for (int i = 0; i <= 25; i++) {
+        for (int i = 0; i < count.length; i++) {
 
             if (count[i] != 0) {
 

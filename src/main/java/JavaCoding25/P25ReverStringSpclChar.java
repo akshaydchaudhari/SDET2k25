@@ -8,6 +8,8 @@ public class P25ReverStringSpclChar {
 
         System.out.println(revStrWithoutSpclChar2(str));
 
+        System.out.println(revStrWithoutSpclChar("M$on%al*isa"));
+
 
     }
 

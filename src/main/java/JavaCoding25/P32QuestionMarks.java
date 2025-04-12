@@ -83,7 +83,7 @@ public class P32QuestionMarks {
                             NofoundValidPair++;
                         } else {
 
-                            return false;
+                            return foundValidPair = false;
                         }
                     }
 

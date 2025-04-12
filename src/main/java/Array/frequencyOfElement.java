@@ -1,5 +1,6 @@
 package Array;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +14,7 @@ public class frequencyOfElement {
 
         int[] arr2 = {2, 4, 2, 1, 3};
 
-        freqOfElement2(arr);
+        freqOfElement2(arr2);
 
 
     }
@@ -35,8 +36,8 @@ public class frequencyOfElement {
     //Aproch 2
 
     private static void freqOfElement2(int[] arr) {
-
-        int[] visitedArr = new int[arr.length];
+        //{2, 4, 2, 1, 3};
+        int[] visitedArr = new int[arr.length];  //[2, 1, -1, 1, 1]
 
         int visited = -1;
 
@@ -55,6 +56,7 @@ public class frequencyOfElement {
             }
 
         }
+        System.out.println(Arrays.toString(visitedArr));
         for (int i = 0; i < visitedArr.length; i++) {
             if (visitedArr[i] != visited) {
                 System.out.println("Frequency of " + arr[i] + " : " + visitedArr[i]);
